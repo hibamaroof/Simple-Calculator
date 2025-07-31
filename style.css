@@ -5,10 +5,12 @@ body {
   align-items: center;
   margin: 0;
   height: 100vh;
+  background-image: url("/assets/back.jpg");
+  background-size: cover;
 }
 
 .calculator {
-  background: black;
+  background: rgb(250, 2, 114);
   width: 320px;
   padding: 20px;
   border-radius: 20px;
@@ -73,17 +75,17 @@ input[type="button"]:hover {
 } */
 
 .del {
-  background: #f40 !important;
+  background: rgb(219, 38, 219) !important;
   color: white;
   font-weight: bold;
 }
 .del:hover {
-  background: rgb(212, 58, 2) !important;
+  background: rgb(227, 22, 227) !important;
 }
 
 .equal {
   margin: 5px 0 15px 17px;
-  background: #f40;
+  background: rgb(219, 38, 219);
   color: white;
   font-size: 24px;
   height: 50px;
@@ -95,5 +97,5 @@ input[type="button"]:hover {
   font-weight: bold;
 }
 .equal:hover {
-  background: rgb(212, 58, 2);
+  background: rgb(226, 19, 226);
 }
