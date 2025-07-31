@@ -1,10 +1,9 @@
 body {
-  background: cyan;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
-  height: 100vh;
+  height: 100%;
   background-image: url("/assets/back.jpg");
   background-size: cover;
 }
@@ -75,18 +74,18 @@ input[type="button"]:hover {
 } */
 
 .del {
-  background: rgb(219, 38, 219) !important;
+  background: rgb(220, 52, 220) !important;
   color: white;
   font-weight: bold;
   border: none;
 }
 .del:hover {
-  background: rgb(227, 22, 227) !important;
+  background: rgb(209, 10, 209) !important;
 }
 
 .equal {
   margin: 5px 0 15px 17px;
-  background: rgb(219, 38, 219);
+  background: rgb(220, 52, 220);
   color: white;
   font-size: 24px;
   height: 50px;
