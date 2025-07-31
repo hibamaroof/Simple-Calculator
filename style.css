@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  height: 98vw;
+  height: 98vh;
   background-image: url("/assets/back.jpg");
   background-size: cover;
 }
